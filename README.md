@@ -1,7 +1,7 @@
 
 ## CRUD-App
 
-A simple express application that: Connects to a database, Creates a payload, get's the data created, updates the data created, deletes the data created. 
+A simple express application that: Connects to a database, Creates a payload and can get, update and delete the data created. 
 
 https://zuricrud-app.herokuapp.com/
 
