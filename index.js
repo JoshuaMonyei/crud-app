@@ -69,7 +69,7 @@ app.get('/interns/:id', (req, res) => {
             return res.status(404).json({message: 'Intern not found'})
         }
         else if (err) {
-            return res.status(404).json({message: err})
+            return res.status(500).json({message: err})
         }
         else {
             return res.status(200).json({intern})
